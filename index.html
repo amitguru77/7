@@ -6,22 +6,50 @@
 	table{
 		border width: 8px;
 		border-style: solid;
-		border-collapse: collapse;
-		margin-top: 100px;
+		border-collapse: collapse;		
 		border-color: white;
 		margin: auto;
+		margin-top: 200px;
 		
 		}
 
 	tr:nth-child(odd){
-
-		background-color: yellow;
+		background-color: rgb(221,254,220);
+		
 	}	
 
 	tr:nth-child(even){
 
 		background-color: white;
 	}
+
+	tr:nth-child(1)
+	{
+		background-color: rgb(187,220,186);
+	}
+
+	#first{
+		font-weight: bold;
+		font-size: 20px;
+		font-style:italic;
+		text-align: center;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	th{
+		text-align: left;
+		font-size: 14px;
+		padding-right: 5px;
+		padding-bottom: 3px;
+	}
+	td{
+		font-size: 13px;
+		text-align: center;
+	}
+	#second{
+		text-align: left;
+	}
+
 	</style>
 	
 
@@ -31,47 +59,56 @@
 <table>
 		
 		<tr >
-			<th style="font-size: 22px;"      colspan="6" ><i>My Tech Stock Picks</i> </th>
+			<th id="first" colspan="6" ><i>My tech stock picks</i> </th>
 		</tr>
 		<tr>
-			<th>Name</th>
-			<th>Symbol</th>
-			<th>Current</th>
+			<th>NAME</th>
+			<th>SYMBOL</th>
+			<th>CURRENT</th>
 			<th>52 WK HI</th>
 			<th>52 WK LO</th>
-			<th>P/E Ratio</th>
+			<th>P/E RATIO</th>
 		</tr>
 		<tr>
-			<td>sfnsrrrrrrrr</td>
-			<td>sdkf</td>
-			<td>sdrrrrrrkj</td>
-			<td>sdkf</td>
-			<td>sdkf</td>
-			<td>sdf</td>
+			<td id="second">Microsoft</td>
+			<td>MSFT</td>
+			<td>86-3/8</td>
+			<td>119-15/16</td>
+			<td>75-1/2</td>
+			<td>56.09</td>
 		</tr>
 		<tr>
-			<td>sd</td>
-			<td>kf</td>
-			<td>sdf</td>
-			<td>sdkkf</td>
-			<td>sdrrrrrkkf</td>
-			<td>ns</td>
+			<td id="second">Cisco System</td>
+			<td>CSCO</td>
+			<td>72-1/8</td>
+			<td>82</td>
+			<td>24-13/16</td>
+			<td>400.69</td>
 		</tr>
 		<tr>
-			<td>ssdkf</td>
-			<td>dkfrrrrrrr</td>
-			<td>ff</td>
-			<td>ssfrrrrr</td>
-			<td>sddkf</td>
-			<td>skf</td>
+			<td id="second">America Online</td>
+			<td>AOL</td>
+			<td>63</td>
+			<td>95-13/16</td>
+			<td>38-15/32</td>
+			<td>350.00</td>
+			
 		</tr>
 		<tr>
-			<td>sdf</td>
-			<td>sdkjf</td>
-			<td>sdrrrrkf</td>
-			<td>s</td>
-			<td>sdkf</td>
-			<td>sd</td>
+			<td id="second">Qwest Communications  </td>
+			<td>Q</td>
+			<td>44-7/16</td>
+			<td>66</td>
+			<td>25-3/4</td>
+			<td>74.06</td>
+		</tr>
+		<tr>
+			<td id="second">Dell Computers</td>
+			<td>DELL</td>
+			<td>53-59/64</td>
+			<td>59-11/16</td>
+			<td>31-3/8</td>
+			<td>86.97</td>
 		</tr>
 
 	</table>
